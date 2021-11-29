@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Preference"
+        android:textColor="#f00"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4sp"
+        android:scrollbarSize="15sp"
+        tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#e0e0e0"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/price1CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/price1"
+            android:textColor="#44f"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/price2CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/price2"
+            android:textColor="#44f"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/price3CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/price3"
+            android:textColor="#44f"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/price4CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/price4"
+            android:textColor="#44f"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance in Miles"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/distance0CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/distance0"
+            android:textColor="#f44"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/distance1CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/distance1"
+            android:textColor="#f44"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/distance2CheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/distance2"
+            android:textColor="#f44"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Genre"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/asianCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/asian"
+            android:textColor="#444"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/cafeCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/cafe"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/mexicanCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/mexican"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/fastFoodCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/fastFood"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/pizzaCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/pizza"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/italianCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/italian"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/sandwichesCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/sandwiches"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/burgersCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/burgers"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/dessertCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/dessert"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/chickenCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/chicken"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/americanCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/american"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/barCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/bar"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/foreignCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/foreign"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/seafoodCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/seafood"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/bakeryCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/bakery"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+
+        <CheckBox
+            android:id="@+id/otherCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:padding="20dp"
+            android:text="@string/other"
+            android:textColor="#101010"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

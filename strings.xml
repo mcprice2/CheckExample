@@ -1,0 +1,28 @@
+<resources>
+<string name="app_name">CheckTest</string>
+<string name="hello_world">Hello world!</string>
+<string name="action_settings">Settings</string>
+<string name="price1">$</string>
+<string name="price2">$$</string>
+<string name="price3">$$$</string>
+<string name="price4">$$$$</string>
+<string name="distance0">0</string>
+<string name="distance1">1 or Less</string>
+<string name="distance2">2 or Less</string>
+<string name="asian">Asian</string>
+<string name="cafe" >Cafe</string>
+<string name="mexican">Mexican</string>
+<string name="fastFood">FastFood</string>
+<string name="pizza">Pizza</string>
+<string name="italian">Italian</string>
+<string name="sandwiches">Sandwiches</string>
+<string name="burgers">Burgers</string>
+<string name="dessert">Dessert</string>
+<string name="chicken">Chicken</string>
+<string name="american">American</string>
+<string name="bar">Bar</string>
+<string name="foreign">Foreign</string>
+<string name="seafood">Seafood</string>
+<string name="bakery">Bakery</string>
+<string name="other">Other</string>
+</resources>
